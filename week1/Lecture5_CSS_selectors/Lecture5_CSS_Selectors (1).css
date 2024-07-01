@@ -1,0 +1,56 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+h1 {
+    color: blue;
+}
+
+/* Class Selector */
+.my-class {
+    font-size: 16px;
+}
+
+/* ID Selector */
+#my-id {
+    background-color: yellow;
+}
+
+/* Descendant Selector */
+.container p {
+    font-weight: bold;
+}
+
+/* Child Selector */
+.container > ul {
+    list-style-type: none;
+}
+
+/* Adjacent Sibling Selector */
+h2 + p {
+    color: red;
+}
+
+/* Attribute Selector */
+a[href="https://www.example.com"] {
+    text-decoration: none;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+    background-color: green;
+}
+
+/* Pseudo-element Selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Grouping Selector */
+h3, h4 {
+    color: purple;
+}
